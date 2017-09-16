@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.8)
+set (CMAKE_CXX_STANDARD 14)
+
+project( calibrate_homography )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( calculate_homography calculate_homography.cpp )
+add_executable( test_homography test_homography.cpp )
+target_link_libraries( calculate_homography ${OpenCV_LIBS} )
+target_link_libraries( test_homography ${OpenCV_LIBS} )

@@ -1,0 +1,6 @@
+<library path="lib/libdeep_nav_layers">
+  <class type="segmentation_layer::SegmentationLayer" base_class_type="costmap_2d::Layer">
+    <description>Uses segmentation data to add obstacles to the costmap</description>
+  </class>
+</library>
+

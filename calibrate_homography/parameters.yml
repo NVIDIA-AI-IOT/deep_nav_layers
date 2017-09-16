@@ -1,0 +1,23 @@
+%YAML:1.0
+---
+# width and height of the original image in pixels
+image_height: 540
+image_width: 1920
+
+# width and height in pixels of segmentation network output
+# (when given the above input)
+seg_height: 11
+seg_width: 54
+
+# the width and height of the image representing a top-down view of the real world
+costmap_height: 200
+costmap_width: 200
+
+# the number of meters per pixel (currently 0.05)
+m_per_pixel: 5.00e-02
+
+# file path indicating where to write the file
+homography_file_path: "/home/nvidia/deep_nav_layers/calibrate_homography/homography.xml"
+
+# file path pointing to sample segmentation data
+seg_data_path: "/home/nvidia/deep_nav_layers/calibrate_homography/segmentation-output.jpg"

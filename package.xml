@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>deep_nav_layers</name>
+  <version>0.1.0</version>
+  <description>The deep_nav_layers package, a series of plug-ins to incorporate deep learning into the ROS navigation stack.</description>
+
+  <maintainer email="rgardner@nvidia.com">Rachel Gardner</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/deep_nav_layers</url>
+
+  <author email="rachel0@stanford.edu">Rachel Gardner</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>costmap_2d</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>costmap_2d</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>roscpp</run_depend>
+
+  <export>
+      <costmap_2d plugin="${prefix}/costmap_plugins.xml" />
+  </export>
+</package>

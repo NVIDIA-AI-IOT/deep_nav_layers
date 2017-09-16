@@ -1,0 +1,25 @@
+%YAML:1.0
+---
+# The coordinates of a rectangle in the input image
+# NOTE: the order of the points much match in each vector (though more can be added)
+img_pts:
+ - { x:993., y:114.} 
+ - { x:993., y:154.} 
+ - { x:993., y:209.}
+ - { x:993., y:318.}
+ - { x:331., y:201.}
+ - { x:647., y:205.}
+ - { x:1344.,y:202.}
+ - { x:1678.,y:194.}
+
+# The coordinates of the same rectangle in meters (with the camera at the origin)
+coord_pts:
+ - { x:0.0e+00, y:1.5e+00}
+ - { x:0.0e+00, y:1.2e+00}
+ - { x:0.0e+00, y:9.0e-01}
+ - { x:0.0e+00, y:6.0e-01}
+ - { x:-1.0e+00, y:9.0e-01}
+ - { x:-5.0e-01, y:9.0e-01}
+ - { x:5.0e-01, y:9.0e-01}
+ - { x:1.0e+00, y:9.0e-01}
+
