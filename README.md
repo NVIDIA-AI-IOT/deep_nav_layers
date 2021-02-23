@@ -7,7 +7,7 @@ This work provides a promising look at the potential to leverage both the power 
 ![ROS Pipeline for deep_nav_layers](https://github.com/NVIDIA-AI-IOT/deep_nav_layers/blob/master/images/nodes.png?raw=true)
 
 Required Package:
-- ROS Kinetic : Docker Container [dusty_nv/jetson-containers](https://github.com/dusty-nv/jetson-containers)
+- ROS Kinetic 
 - [NVIDIA-AI-IOT/caffe_ros](https://github.com/NVIDIA-AI-IOT/caffe_ros)
 
 Following are the steps:
